@@ -1,0 +1,1 @@
+print("ganpati bappa morya");
