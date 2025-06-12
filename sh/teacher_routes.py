@@ -4,7 +4,7 @@ import uuid
 from app.firebase_setup import db
 
 router = APIRouter()
-
+# ufyvghu
 # Define input schema
 class Teacher(BaseModel):
     name: str
