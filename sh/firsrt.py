@@ -15,6 +15,7 @@ def store_teacher_info(name, subject, email, phone):
         "phone": phone
     }
 
+
     doc_id = str(uuid.uuid4())
     db.collection("teachers").document(doc_id).set(teacher)
     print(f"✅ Teacher {name} added successfully to Firestore.")
